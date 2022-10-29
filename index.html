@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>API</title>
+</head>
+<body>
+    <header class="container">
+        <h1 class="fonte">API VIACEP</h1>
+    </header>
+    <section>
+        <div class="container">
+            <fieldset>
+                <legend>Informações</legend>
+                <div class="row">
+                    <div class="inputbox ">
+                        <input class="" type="text" id="cnome" name="" placeholder="Digite o nome" required>
+                        <label for="cnome">Nome:</label>
+                    </div>
+                <div class="inputbox ">
+                    <input class="" type="email" id="cmail" name="" placeholder="e-mail" required>
+                    <label for="cmail">e-mail:</label>
+                </div>
+                <div class="inputbox ">
+                    <input class="" type="text" id="ccel" name="" placeholder="Celular" required>
+                    <label for="ccel">Celular:</label>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="inputbox ">
+                        <input class="" onblur="apiCep()" type="text" id="ccep" name="" placeholder="Digite o cep" required>
+                        <label for="ccep">Cep:</label>
+                    </div>
+
+                <div class="inputbox ">
+                    <input class="" type="text" id="cend" name="" placeholder="Endedreço" required>
+                    <label for="cend">Endereço:</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="numero"  required>
+                    <label for="numero">Número</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="inputbox ">
+                    <input class="" type="text" id="cest" name="" placeholder="Estado" required>
+                    <label for="cest">Estado:</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="ccid"  placeholder="Cidade" required>
+                    <label for="cidade">Cidade</label>
+                </div>
+                <div class="inputbox ">
+                    <input class="" type="text" id="cbar" name="" placeholder="Bairro" required>
+                    <label for="cbar">Bairro:</label>
+                </div>
+            </div>
+            </fieldset>
+        </div>
+    </section>
+</body>
+
+</html>
